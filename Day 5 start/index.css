@@ -2,6 +2,10 @@ body{
     font-family: Arial;
     color: slategray;
 }
+#container {
+    width: 60%;
+    margin: auto;
+}
 h1 {
     font-size:300%;
 }
@@ -22,4 +26,13 @@ footer p {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    #container{
+    width: 90%;
+    }
+    h1 {
+        font-size: 200%;
+    }
 }
